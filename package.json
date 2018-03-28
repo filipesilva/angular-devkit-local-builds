@@ -1,0 +1,39 @@
+{
+  "name": "@angular-devkit/local",
+  "version": "0.0.1",
+  "description": "Package used to install inside a project.",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "keywords": [
+    "angular",
+    "devkit",
+    "sdk",
+    "Angular DevKit",
+    "angular cli",
+    "ng cli",
+    "cli",
+    "local"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@angular-devkit/architect": "0.0.8",
+    "@angular-devkit/core": "0.4.7",
+    "@angular-devkit/schematics": "0.4.7",
+    "@angular-devkit/build-webpack": "0.0.8",
+    "@angular-devkit/build-ng-packagr": "0.0.2",
+    "@schematics/angular": "0.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/devkit.git"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.5.1"
+  },
+  "author": "Angular Authors",
+  "bugs": {
+    "url": "https://github.com/angular/devkit/issues"
+  },
+  "homepage": "https://github.com/angular/devkit"
+}
